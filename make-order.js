@@ -1,6 +1,6 @@
     let products = [
-    { name: 'Fralda', amount: 80 },
-    { name: 'Babá Eletrônica', amount: 5 }
+        { name: 'Fralda', amount: 80 },
+        { name: 'Babá Eletrônica', amount: 5 }
     ];
 
     let orders = [];
@@ -23,7 +23,7 @@
                     console.log("Order completed!");
                     
                 } else {
-                console.log(`insufficient stock of product ${product}. Order not completed!`);
+                    console.log(`insufficient stock of product ${product}. Order not completed!`);
                 }
 
                 return; // Finaliza aqui se achou o produto            
